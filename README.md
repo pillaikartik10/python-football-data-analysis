@@ -24,6 +24,10 @@ threadpoolctl: 2.1.0
 joblib       : 1.0.1  
 
 **NOTE** : If you are using the Binder link, it will automatically recreate the environment and download these dependencies.  
+Also, the last two cells(involving the *watermark* library, might not work in Binder. They aren't a part of the Data Analysis, and are just there to find out the dependencies used in the project. However if you do wish to run them, then add  
+```%pip install watermark
+```  
+before the cells to install the library.  
   
 ## The Project  
   
@@ -35,4 +39,4 @@ On the basis of the available data, we try to find out the following :
 4. Calculating Total Goals scored, and find out the top teams w.r.t. Goals scored per game.  
 5. Check for any correlation between the Winning %, and Goals per game.  
   
-Finally, we fit a Simple Linear Regression Model on the Winning % and Goals scored per game, and find out the accuracy of the prediction by the machine model.
+Finally, we fit a Simple Linear Regression Model on the Winning % and Goals scored per game, and find out the accuracy of the prediction by the machine learning model.
