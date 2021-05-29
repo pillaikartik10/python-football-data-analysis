@@ -17,11 +17,11 @@ plotly       : 4.14.3
 matplotlib   : 3.4.2  
 pandas       : 1.2.3  
 chart_studio : 1.1.0  
-scipy        : 1.6.3
-scikit-learn : 0.24.2
-sklearn      : 0.0
-threadpoolctl: 2.1.0
-joblib       : 1.0.1
+scipy        : 1.6.3  
+scikit-learn : 0.24.2  
+sklearn      : 0.0  
+threadpoolctl: 2.1.0  
+joblib       : 1.0.1  
 
 **NOTE** : If you are using the Binder link, it will automatically recreate the environment and download these dependencies.  
   
