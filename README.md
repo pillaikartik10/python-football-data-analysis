@@ -24,7 +24,7 @@ threadpoolctl: 2.1.0
 joblib       : 1.0.1  
 
 **NOTE** : If you are using the Binder link, it will automatically recreate the environment and download these dependencies.  
-Also, the last two cells(involving the *watermark* library, might not work in Binder. They aren't a part of the Data Analysis, and are just there to find out the dependencies used in the project. However if you do wish to run them, then add  
+Also, the last two cells(involving the *watermark* library), might not work in Binder. They aren't a part of the Data Analysis, and are just there to find out the dependencies used in the project. However if you do wish to run them, then add  
 ```
 %pip install watermark
 ```  
